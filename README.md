@@ -1,0 +1,3 @@
+# MQTT Server
+
+MQTT i.e Message Queuing Telemetry Transport is a messaging protocol for IoT. It is a lightweight publish-subscribe system that defines how IoT devices can publish and subscribe to the data over the internet. This simple messaging protocol is designed for machine to machine(M2M) telemetry in low bandwidth environment. The protocol is event driven and connects devices using publish/subscribe pattern. The sender(Publisher) and the receiver(Subscriber) communicate via Topics and are decoupled from each other. The connection between them is handled by the MQTT broker. The MQTT broker filters out all the incoming messages and distributes them correctly to the subscribers.
